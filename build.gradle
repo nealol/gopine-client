@@ -30,7 +30,7 @@ compileJava.options.encoding = 'UTF-8'
 
 minecraft {
     version = "1.8.9"
-    tweakClass = "ga.gopine.mixins.GopineTweaker"
+    tweakClass = "net.gopine.mixins.GopineTweaker"
     runDir = "run"
     mappings = "stable_20"
     makeObfSourceJar = false
@@ -87,7 +87,7 @@ jar {
 jar {
     manifest.attributes(
             "MixinConfigs": 'mixins.gopine.json',
-            "TweakClass": 'ga.gopine.mixins.GopineTweaker',
+            "TweakClass": 'net.gopine.mixins.GopineTweaker',
             "TweakOrder": 0,
             "Manifest-Version": 1.0
     )
