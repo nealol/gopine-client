@@ -1,10 +1,12 @@
 {
   "required": true,
   "compatibilityLevel": "JAVA_8",
-  "package": "ga.gopine.mixins",
+  "package": "net.gopine.mixins",
   "refmap": "mixins.apollo.json",
   "verbose": true,
   "mixins": [
-    "net.gopine.mixins.client.MinecraftMixin"
+    "client.MinecraftMixin",
+    "networking.NetHandlerPlayClientMixin",
+    "entity.EntityPlayerMixin"
   ]
 }

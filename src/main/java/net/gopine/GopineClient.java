@@ -6,7 +6,7 @@ import org.lwjgl.opengl.Display;
 /**
  * The main class of the client. Where all initialization takes place.
  * @author MatthewTGM | MatthewTGM#4058
- * @since 0.1b
+ * @since b0.1
  */
 public class GopineClient {
 
@@ -14,18 +14,18 @@ public class GopineClient {
     /**
      * @return an instance of GopineClient
      * @author MatthewTGM | MatthewTGM#4058
-     * @since 0.1b
+     * @since b0.1
      */
     public static GopineClient getInstance() {
         return INSTANCE;
     }
 
-    public final String CLIENT_NAME = "Gopine Client", CLIENT_VER = "0.0.1b", BRANCH_NAME = "EXPERIMENTAL";
+    public final String CLIENT_NAME = "Gopine Client", CLIENT_VER = "b0.1", BRANCH_NAME = "BETA";
 
     /**
      * The client preInitialization method.
      * @author MatthewTGM | MatthewTGM#4058
-     * @since 0.1b
+     * @since b0.1
      */
     public void preInit() {
         Logger.info("Started Gopine Client PRE_INIT phase");
@@ -36,7 +36,7 @@ public class GopineClient {
     /**
      * The client initialization method.
      * @author MatthewTGM | MatthewTGM#4058
-     * @since 0.1b
+     * @since b0.1
      */
     public void init() {
         Logger.info("Started Gopine Client INIT phase");
@@ -46,7 +46,7 @@ public class GopineClient {
     /**
      * The client shutdown method.
      * @author MatthewTGM | MatthewTGM#4058
-     * @since 0.1b
+     * @since b0.1
      */
     public void shutdown() {
 

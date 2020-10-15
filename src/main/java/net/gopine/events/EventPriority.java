@@ -3,7 +3,7 @@ package net.gopine.events;
 /**
  * A class used to change the priority inwhich events are called.
  * @author MatthewTGM | MatthewTGM#4058
- * @since 0.1b
+ * @since b0.1
  */
 public class EventPriority {
 

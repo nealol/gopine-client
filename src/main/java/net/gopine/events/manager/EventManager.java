@@ -15,7 +15,7 @@ import java.util.Map;
  * The {@link EventManager} class
  * I'm not going to bother making a Javadoc for every method in here as there are so many.
  * @author MatthewTGM | MatthewTGM#4058
- * @since 0.1b
+ * @since b0.1
  */
 public class EventManager {
 

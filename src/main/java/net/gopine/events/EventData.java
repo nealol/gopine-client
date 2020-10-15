@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * Used to detemine the data for events.
  * @author MatthewTGM | MatthewTGM#4058
- * @since 0.1b
+ * @since b0.1
  */
 public class EventData {
 

@@ -27,7 +27,8 @@ Custom mod support similar to that of Hyperium and MinecraftForge
 
 ## Contributing
 ### Guidelines
-- You must add a Javadoc for all methods added by you
-- You must state that you are the author of a class or method
+- You must add a Javadoc for all classes/methods added by you
+- You must state that you are the author of a class or method using the @author tag
+- You must state the current version that you are adding this feature in using the @since tag
 ### How To
 Join the Discord server [here](https://discord.gg/KUvgJBU) and create a pull request with your code

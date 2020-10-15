@@ -5,6 +5,6 @@ import net.gopine.events.Event;
 /**
  * An event which runs on game tick.
  * @author MatthewTGM | MatthewTGM#4058
- * @since 0.1b
+ * @since b0.1
  */
 public class EventTick extends Event {  }

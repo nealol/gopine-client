@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * The class used to subscribe events to the EventManager.
  * @author MatthewTGM | MatthewTGM#4058
- * @since 0.1b
+ * @since b0.1
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
