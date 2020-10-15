@@ -5,6 +5,6 @@
   "refmap": "mixins.apollo.json",
   "verbose": true,
   "mixins": [
-    "client.MinecraftMixin"
+    "net.gopine.mixins.client.MinecraftMixin"
   ]
 }
