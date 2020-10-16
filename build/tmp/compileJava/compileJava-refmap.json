@@ -1,0 +1,55 @@
+{
+  "mappings": {
+    "net/gopine/mixins/networking/NetHandlerPlayClientMixin": {
+      "handleChat": "Lbcy;a(Lfy;)V"
+    },
+    "net/gopine/mixins/entity/EntityPlayerMixin": {
+      "attackTargetEntityWithCurrentItem": "Lwn;f(Lpk;)V"
+    },
+    "net/gopine/mixins/client/MinecraftMixin": {
+      "dispatchKeypresses": "Lave;Z()V",
+      "startGame": "Lave;am()V",
+      "runTick": "Lave;s()V",
+      "shutdownMinecraftApplet": "Lave;g()V",
+      "clickMouse": "Lave;aw()V",
+      "rightClickMouse": "Lave;ax()V",
+      "displayGuiScreen": "Lave;a(Laxu;)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "net/gopine/mixins/networking/NetHandlerPlayClientMixin": {
+        "handleChat": "Lbcy;a(Lfy;)V"
+      },
+      "net/gopine/mixins/entity/EntityPlayerMixin": {
+        "attackTargetEntityWithCurrentItem": "Lwn;f(Lpk;)V"
+      },
+      "net/gopine/mixins/client/MinecraftMixin": {
+        "dispatchKeypresses": "Lave;Z()V",
+        "startGame": "Lave;am()V",
+        "runTick": "Lave;s()V",
+        "shutdownMinecraftApplet": "Lave;g()V",
+        "clickMouse": "Lave;aw()V",
+        "rightClickMouse": "Lave;ax()V",
+        "displayGuiScreen": "Lave;a(Laxu;)V"
+      }
+    },
+    "searge": {
+      "net/gopine/mixins/networking/NetHandlerPlayClientMixin": {
+        "handleChat": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147251_a(Lnet/minecraft/network/play/server/S02PacketChat;)V"
+      },
+      "net/gopine/mixins/entity/EntityPlayerMixin": {
+        "attackTargetEntityWithCurrentItem": "Lnet/minecraft/entity/player/EntityPlayer;func_71059_n(Lnet/minecraft/entity/Entity;)V"
+      },
+      "net/gopine/mixins/client/MinecraftMixin": {
+        "dispatchKeypresses": "Lnet/minecraft/client/Minecraft;func_152348_aa()V",
+        "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+        "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
+        "shutdownMinecraftApplet": "Lnet/minecraft/client/Minecraft;func_71405_e()V",
+        "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+        "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V",
+        "displayGuiScreen": "Lnet/minecraft/client/Minecraft;func_147108_a(Lnet/minecraft/client/gui/GuiScreen;)V"
+      }
+    }
+  }
+}
