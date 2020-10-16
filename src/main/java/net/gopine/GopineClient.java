@@ -3,6 +3,7 @@ package net.gopine;
 import net.gopine.events.manager.EventManager;
 import net.gopine.settings.SettingManager;
 import net.gopine.util.Logger;
+import net.gopine.util.GopineRPC;
 
 /**
  * The main class of the client. Where all initialization takes place.
