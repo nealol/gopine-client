@@ -1,0 +1,17 @@
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+run
+out
+*.ipr
+*.iws
+*.iml
+.idea
+*.DS_Store
+build
+.gradle
+run
+eclipse

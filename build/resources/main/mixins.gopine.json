@@ -7,6 +7,7 @@
   "mixins": [
     "client.MinecraftMixin",
     "networking.NetHandlerPlayClientMixin",
-    "entity.EntityPlayerMixin"
+    "entity.EntityPlayerMixin",
+    "gui.GuiMainMenuMixin"
   ]
 }

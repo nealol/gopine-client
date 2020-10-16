@@ -1,0 +1,2 @@
+MD: net/gopine/mixins/gui/GuiMainMenuMixin/initGui ()V net/gopine/mixins/gui/GuiMainMenuMixin/b ()V
+MD: net/gopine/mixins/gui/GuiMainMenuMixin/drawScreen (IIF)V net/gopine/mixins/gui/GuiMainMenuMixin/a (IIF)V

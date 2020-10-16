@@ -8,12 +8,16 @@
     },
     "net/gopine/mixins/client/MinecraftMixin": {
       "dispatchKeypresses": "Lave;Z()V",
+      "createDisplay": "Lave;ap()V",
       "startGame": "Lave;am()V",
       "runTick": "Lave;s()V",
       "shutdownMinecraftApplet": "Lave;g()V",
       "clickMouse": "Lave;aw()V",
       "rightClickMouse": "Lave;ax()V",
       "displayGuiScreen": "Lave;a(Laxu;)V"
+    },
+    "net/gopine/mixins/gui/GuiMainMenuMixin": {
+      "actionPerformed": "Laya;a(Lavs;)V"
     }
   },
   "data": {
@@ -26,12 +30,16 @@
       },
       "net/gopine/mixins/client/MinecraftMixin": {
         "dispatchKeypresses": "Lave;Z()V",
+        "createDisplay": "Lave;ap()V",
         "startGame": "Lave;am()V",
         "runTick": "Lave;s()V",
         "shutdownMinecraftApplet": "Lave;g()V",
         "clickMouse": "Lave;aw()V",
         "rightClickMouse": "Lave;ax()V",
         "displayGuiScreen": "Lave;a(Laxu;)V"
+      },
+      "net/gopine/mixins/gui/GuiMainMenuMixin": {
+        "actionPerformed": "Laya;a(Lavs;)V"
       }
     },
     "searge": {
@@ -43,12 +51,16 @@
       },
       "net/gopine/mixins/client/MinecraftMixin": {
         "dispatchKeypresses": "Lnet/minecraft/client/Minecraft;func_152348_aa()V",
+        "createDisplay": "Lnet/minecraft/client/Minecraft;func_175609_am()V",
         "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
         "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
         "shutdownMinecraftApplet": "Lnet/minecraft/client/Minecraft;func_71405_e()V",
         "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
         "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V",
         "displayGuiScreen": "Lnet/minecraft/client/Minecraft;func_147108_a(Lnet/minecraft/client/gui/GuiScreen;)V"
+      },
+      "net/gopine/mixins/gui/GuiMainMenuMixin": {
+        "actionPerformed": "Lnet/minecraft/client/gui/GuiMainMenu;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V"
       }
     }
   }

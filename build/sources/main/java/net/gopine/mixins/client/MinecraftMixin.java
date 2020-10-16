@@ -10,6 +10,7 @@ import net.gopine.events.impl.player.input.EventMouseRightClick;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import org.lwjgl.input.Keyboard;
+import org.lwjgl.opengl.Display;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -54,6 +55,17 @@ public class MinecraftMixin {
     @Inject(method = "shutdownMinecraftApplet", at = @At("HEAD"))
     private void shutdown(CallbackInfo ci) {
         GopineClient.getInstance().shutdown();
+    }
+
+    /**
+     * Sets all dispay settings.
+     * @param ci unused
+     * @author MatthewTGM | MatthewTGM#4058
+     * @since b0.1
+     */
+    @Inject(method = "createDisplay", at = @At("RETURN"))
+    private void createDisplay(CallbackInfo ci) {
+        Display.setTitle(GopineClient.getInstance().CLIENT_NAME + " " + GopineClient.getInstance().CLIENT_VER + " [" + GopineClient.getInstance().BRANCH_NAME + "]");
     }
 
     /*

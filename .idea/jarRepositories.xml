@@ -17,11 +17,6 @@
       <option name="url" value="https://repo.maven.apache.org/maven2/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="deobfDeps" />
-      <option name="name" value="deobfDeps" />
-      <option name="url" value="file:/$USER_HOME$/.gradle/caches/minecraft/deobfedDeps" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="forge" />
       <option name="name" value="forge" />
       <option name="url" value="http://files.minecraftforge.net/maven" />
@@ -37,6 +32,11 @@
       <option name="url" value="https://libraries.minecraft.net/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="deobfDeps" />
+      <option name="name" value="deobfDeps" />
+      <option name="url" value="file:/$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="maven" />
       <option name="name" value="maven" />
       <option name="url" value="https://jitpack.io" />
@@ -45,11 +45,6 @@
       <option name="id" value="sponge" />
       <option name="name" value="sponge" />
       <option name="url" value="https://repo.spongepowered.org/maven/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="deobfDeps" />
-      <option name="name" value="deobfDeps" />
-      <option name="url" value="file:/$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/" />
     </remote-repository>
   </component>
 </project>
