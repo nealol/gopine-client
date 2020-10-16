@@ -58,6 +58,8 @@ dependencies {
         exclude module: 'gson'
         exclude module: 'commons-io'
     }
+    // Hot Tutorials#8262
+    compile group: 'com.jagrosh', name: 'DiscordIPC', version: '0.4'
 }
 
 mixin {

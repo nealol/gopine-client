@@ -1,0 +1,34 @@
+[16:16:03] [main/INFO]: Extra: [--tweakClass, net.gopine.mixins.GopineTweaker]
+[16:16:03] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/PC/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, net.gopine.mixins.GopineTweaker]
+[16:16:03] [main/INFO]: Loading tweak class name net.gopine.mixins.GopineTweaker
+[16:16:03] [main/INFO]: Using primary tweak class name net.gopine.mixins.GopineTweaker
+[16:16:03] [main/INFO]: Calling tweak class net.gopine.mixins.GopineTweaker
+[16:16:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/PC/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=UNKNOWN
+[16:16:03] [main/INFO]: FML platform manager could not load class cpw.mods.fml.relauncher.CoreModManager. Proceeding without FML support.
+[16:16:03] [main/INFO]: Compatibility level set to JAVA_8
+[16:16:03] [main/ERROR]: Mixin config mixins.gopine.json does not specify "minVersion" property
+[16:16:03] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:16:03] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:16:03] [main/WARN]: Reference map 'mixins.apollo.json' for mixins.gopine.json could not be read. If this is a development environment you can ignore this message
+[16:16:03] [main/ERROR]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.gopine.json:client.MinecraftMixin, name: net.gopine.mixins.client.MinecraftMixin
+[16:16:03] [main/ERROR]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.gopine.json:networking.NetHandlerPlayClientMixin, name: net.gopine.mixins.networking.NetHandlerPlayClientMixin
+[16:16:03] [main/ERROR]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.gopine.json:entity.EntityPlayerMixin, name: net.gopine.mixins.entity.EntityPlayerMixin
+[16:16:03] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:16:03] [main/INFO]: Mixing client.MinecraftMixin from mixins.gopine.json into net.minecraft.client.Minecraft
+[16:16:04] [main/INFO]: Mixing entity.EntityPlayerMixin from mixins.gopine.json into net.minecraft.entity.player.EntityPlayer
+[16:16:04] [Client thread/ERROR]: Can't find the resource index file: .\assets\indexes\1.8.json
+[16:16:04] [Client thread/INFO]: Setting user: Player281
+[16:16:04] [Client thread/INFO]: (Session ID is token:FML:Player281)
+[16:16:06] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:16:07] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:16:07] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:16:07] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[16:16:07] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:16:07] [Thread-8/INFO]: OpenAL initialized.
+[16:16:07] [Sound Library Loader/INFO]: Sound engine started
+[16:16:09] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:16:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[16:16:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[16:16:33] [Client thread/INFO]: Stopping!
+[16:16:33] [Client thread/INFO]: SoundSystem shutting down...
+[16:16:34] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
