@@ -1,9 +1,16 @@
 package net.gopine;
 
+import net.gopine.events.EventSubscriber;
+import net.gopine.events.impl.client.EventTick;
+import net.gopine.events.impl.gui.EventGuiSwitch;
+import net.gopine.events.impl.player.EventAttackEntity;
+import net.gopine.events.impl.player.EventKillEntity;
 import net.gopine.events.manager.EventManager;
 import net.gopine.settings.SettingManager;
 import net.gopine.util.Logger;
 import net.gopine.util.GopineRPC;
+import net.gopine.util.Utils;
+import net.minecraft.entity.passive.EntitySheep;
 
 /**
  * The main class of the client. Where all initialization takes place.
@@ -24,13 +31,13 @@ public class GopineClient {
     private static SettingManager settingManager = new SettingManager();
 
     public final String CLIENT_NAME = "Gopine Client", CLIENT_VER = "b0.1", BRANCH_NAME = "BETA";
-	
-	/**
-     * @return an instance of Discord RPC
+
+    private final GopineRPC GOPINE_RPC = new GopineRPC();
+    /**
+     * @return an instance of GopineRPC
      * @author Hot Tutorials | Hot Tutorials#8262
      * @since b0.1
      */
-    private final GopineRPC GOPINE_RPC = new GopineRPC();
     public final GopineRPC getDiscordRPC() { return GOPINE_RPC; };
 
     /**
@@ -63,6 +70,11 @@ public class GopineClient {
      */
     public void shutdown() {
 
+    }
+
+    @EventSubscriber
+    public void onGuiSwitch(EventGuiSwitch e) {
+        new Utils().checkForDiscordRPCUpdateAvailability(this.getDiscordRPC(), e.screen);
     }
 
 }

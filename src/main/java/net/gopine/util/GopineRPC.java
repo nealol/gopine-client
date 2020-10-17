@@ -19,7 +19,6 @@ public class GopineRPC {
     IPCClient client = new IPCClient(766300045918076938L);
 
     /**
-     * @return start GopineRPC
      * @author Hot Tutorials | Hot Tutorials#8262
      * @since b0.1
      */
@@ -29,7 +28,7 @@ public class GopineRPC {
             @Override
             public void onReady(IPCClient client)
             {
-                setPresence("Gopine Client 1.8.9", "Main Menu");
+                setPresence("Starting Client...", "Starting Client...", "gopinelarge");
                 client.sendRichPresence(builder.build());
                 Logger.info("Set DiscordRPC Presence...");
             }
@@ -45,7 +44,8 @@ public class GopineRPC {
     }
 
     /**
-     * @return set RPC presence | firstLine is the firstLine | secondLine is the secondLine |
+     * @param firstLine is the firstLine
+     * @param secondLine is the secondLine
      * @author Hot Tutorials | Hot Tutorials#8262
      * @since b0.1
      */
@@ -57,10 +57,9 @@ public class GopineRPC {
     }
 
     /**
-     * @return set RPC presence
-     * | firstLine is the firstLine
-     * | secondLine is the secondLine
-     * | largeImage is the large image that shows
+     * @param firstLine is the firstLine
+     * @param secondLine is the secondLine
+     * @param largeImage is the large image that shows
      * @author Hot Tutorials | Hot Tutorials#8262
      * @since b0.1
      */
@@ -75,11 +74,10 @@ public class GopineRPC {
 
 
     /**
-     * @return set RPC presence
-     * | firstLine is the firstLine
-     * | secondLine is the secondLine
-     * | largeImage is the large image that shows
-     * | smallImage is the image that shows in the bottom right of the largeImage
+     * @param firstLine is the firstLine
+     * @param secondLine is the secondLine
+     * @param largeImage is the large image that shows
+     * @param smallImage is the image that shows in the bottom right of the largeImage
      * @author Hot Tutorials | Hot Tutorials#8262
      * @since b0.1
      */

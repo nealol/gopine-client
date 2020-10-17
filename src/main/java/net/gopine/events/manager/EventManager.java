@@ -4,6 +4,7 @@ import net.gopine.events.Event;
 import net.gopine.events.EventData;
 import net.gopine.events.EventPriority;
 import net.gopine.events.EventSubscriber;
+import net.gopine.util.Logger;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -136,6 +137,7 @@ public class EventManager {
         for(final Method method : o.getClass().getMethods()) {
             if(!isMethodBad(method)) {
                 register(method, o);
+                Logger.info(o + " was registered as an event obj!");
             }
         }
     }

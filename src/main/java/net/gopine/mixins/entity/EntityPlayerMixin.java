@@ -1,6 +1,7 @@
 package net.gopine.mixins.entity;
 
 import net.gopine.events.impl.player.EventAttackEntity;
+import net.gopine.events.impl.player.EventKillEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import org.spongepowered.asm.mixin.Mixin;
@@ -28,6 +29,9 @@ public class EntityPlayerMixin {
     public void attackTargetEntityWithCurrentItem(Entity targetEntity, CallbackInfo ci) {
         if(targetEntity != null) {
             new EventAttackEntity(targetEntity).call();
+            if(targetEntity.isDead) {
+                new EventKillEntity(targetEntity).call();
+            }
         }
     }
 
