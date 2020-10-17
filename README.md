@@ -1,4 +1,4 @@
-# Gopine Client
+![Gopine Header](https://cdn1.bbcode0.com/uploads/2020/10/17/bcc70309b88e4c4aa9a9a62b8e3040f6-full.png)
 ## Features
 ### Mods
 - 1.7 Animations
