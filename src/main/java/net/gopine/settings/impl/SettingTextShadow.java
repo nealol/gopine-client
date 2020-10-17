@@ -5,7 +5,7 @@ import net.gopine.settings.SettingsType;
 
 public class SettingTextShadow extends Setting {
 
-    public SettingTextShadow(String name, SettingsType type, boolean toggle) {
+    public SettingTextShadow() {
         super("Text Shadow", SettingsType.GUI, false);
     }
 

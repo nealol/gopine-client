@@ -114,8 +114,8 @@ public class GuiMainMenuMixin extends GuiScreen {
         this.drawString(this.fontRendererObj, clientNameAndVer, 2, this.height - 10, -1);
         String copyright = "Copyright Mojang AB. Do not distribute!";
         String notAffiliated = "Gopine Client is not affiliated with Mojang AB";
-        this.drawString(this.fontRendererObj, copyright, this.width - this.fontRendererObj.getStringWidth(copyright) - 2, this.height - 10, -1);
-        this.drawString(this.fontRendererObj, notAffiliated, this.width - this.fontRendererObj.getStringWidth(notAffiliated) - 2, this.height - 20, -1);
+        this.drawString(this.fontRendererObj, copyright, this.width - this.fontRendererObj.getStringWidth(copyright) - 2, this.height - 20, -1);
+        this.drawString(this.fontRendererObj, notAffiliated, this.width - this.fontRendererObj.getStringWidth(notAffiliated) - 2, this.height - 10, -1);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)
         {

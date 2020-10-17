@@ -35,6 +35,7 @@ public class GopineTweaker implements ITweaker {
             launchArguments.add("--gameDir");
             launchArguments.add(gameDir.getAbsolutePath());
         }
+
     }
 
     @Override
